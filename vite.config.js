@@ -28,5 +28,9 @@ export default defineConfig({
         additionalData:'@import "./src/assets/style/main.scss";'
       }
     }
+  },
+  base: "/vue-demo/",
+  build: {
+    outDir: "docs"
   }
 })
