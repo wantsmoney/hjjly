@@ -30,7 +30,7 @@ export default defineConfig({
       }
     }
   },
-  base: "/vue-demo/",
+  base: "/hjjly/",
   build: {
     outDir: "docs"
   }
