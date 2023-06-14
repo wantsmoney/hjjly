@@ -155,9 +155,9 @@ export default defineComponent({
       this.dialogFormVisible = true;
     },
     handleEdit(id) {
-      const queryData = { id: id };
-      console.log(queryData);
-      school.one(queryData)
+      
+      console.log(id);
+      school.one(id)
         .then((res) => {
           console.log(res);
           this.school = res.data.school;
