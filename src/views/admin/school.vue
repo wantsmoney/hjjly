@@ -157,7 +157,7 @@ export default defineComponent({
     handleEdit(id) {
       const queryData = { id: id };
       console.log(queryData);
-      school.update(queryData)
+      school.one(queryData)
         .then((res) => {
           console.log(res);
           this.school = res.data.school;
