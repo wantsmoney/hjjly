@@ -155,7 +155,6 @@ export default defineComponent({
       this.dialogFormVisible = true;
     },
     handleEdit(id) {
-      
       console.log(id);
       school.one(id)
         .then((res) => {
